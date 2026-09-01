@@ -1,0 +1,179 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: en\n"
+
+msgid "plugins.generic.nastis.name"
+msgstr "Nastis"
+
+msgid "plugins.generic.nastis.description"
+msgstr "A plugin to automatically deliver data, synchronizing published article metadata and PDF files from OJS to the Vietnam Journals Online (VJOL) system through the ingest API."
+
+msgid "plugins.generic.nastis.settings.baseUrl"
+msgstr "Base URL"
+
+msgid "plugins.generic.nastis.settings.journalCode"
+msgstr "Journal code"
+
+msgid "plugins.generic.nastis.settings.clientId"
+msgstr "Client ID"
+
+msgid "plugins.generic.nastis.settings.apiKey"
+msgstr "API key"
+
+msgid "plugins.generic.nastis.settings.behavior"
+msgstr "Behavior"
+
+msgid "plugins.generic.nastis.settings.autoSyncOnPublish"
+msgstr "Automatically sync when a publication is published."
+
+msgid "plugins.generic.nastis.settings.autoSyncOnEdit"
+msgstr "Automatically sync when a synced publication is edited."
+
+msgid "plugins.generic.nastis.settings.uploadPdf"
+msgstr "Upload the first PDF galley after metadata sync."
+
+msgid "plugins.generic.nastis.settings.help"
+msgstr "Use the ingest credentials issued for your journal. The configured base URL may differ from the public VJOL website."
+
+msgid "plugins.generic.nastis.settings.pluginInfo"
+msgstr "Plugin information"
+
+msgid "plugins.generic.nastis.settings.author"
+msgstr "Author"
+
+msgid "plugins.generic.nastis.settings.authorName"
+msgstr "Thuận Huỳnh"
+
+msgid "plugins.generic.nastis.settings.authorAffiliation"
+msgstr "Tạp chí Sức khỏe và Lão hóa - Bệnh viện Thống Nhất"
+
+msgid "plugins.generic.nastis.settings.journalWebsite"
+msgstr "Journal website"
+
+msgid "plugins.generic.nastis.settings.fieldRequired"
+msgstr "This field is required."
+
+msgid "plugins.generic.nastis.settings.baseUrl.invalid"
+msgstr "The base URL is invalid."
+
+msgid "plugins.generic.nastis.sync.success"
+msgstr "Nastis synchronization completed successfully."
+
+msgid "plugins.generic.nastis.sync.error"
+msgstr "Nastis synchronization failed."
+
+msgid "plugins.generic.nastis.error.notConfigured"
+msgstr "Nastis is not configured. Fill in the plugin settings first."
+
+msgid "plugins.generic.nastis.error.noPublication"
+msgstr "The submission does not have a current publication to synchronize."
+
+msgid "plugins.generic.nastis.navigation.nastis"
+msgstr "Nastis"
+
+msgid "plugins.generic.nastis.tab.overview"
+msgstr "Overview"
+
+msgid "plugins.generic.nastis.tab.about"
+msgstr "About"
+
+msgid "plugins.generic.nastis.tab.submissions"
+msgstr "Submissions"
+
+msgid "plugins.generic.nastis.tab.syncBehavior"
+msgstr "Sync behavior"
+
+msgid "plugins.generic.nastis.tab.lastSyncedAt"
+msgstr "Last synced at"
+
+msgid "plugins.generic.nastis.action.syncSelected"
+msgstr "Sync selected"
+
+msgid "plugins.generic.nastis.status.notSynced"
+msgstr "Not synced"
+
+msgid "plugins.generic.nastis.action.syncNow"
+msgstr "Sync now"
+
+msgid "plugins.generic.nastis.action.openPanel"
+msgstr "Open Nastis"
+
+msgid "plugins.generic.nastis.action.applyFilters"
+msgstr "Apply filters"
+
+msgid "plugins.generic.nastis.action.bulkActions"
+msgstr "Bulk actions:"
+
+msgid "plugins.generic.nastis.action.selectAll"
+msgstr "Select all"
+
+msgid "plugins.generic.nastis.action.selectNone"
+msgstr "Unselect all"
+
+msgid "plugins.generic.nastis.action.expandDetails"
+msgstr "Show more details"
+
+msgid "plugins.generic.nastis.pagination.prev"
+msgstr "Previous"
+
+msgid "plugins.generic.nastis.pagination.page"
+msgstr "Page"
+
+msgid "plugins.generic.nastis.pagination.next"
+msgstr "Next"
+
+msgid "plugins.generic.nastis.status.received"
+msgstr "Received"
+
+msgid "plugins.generic.nastis.status.needsCorrection"
+msgstr "Needs correction"
+
+msgid "plugins.generic.nastis.status.accepted"
+msgstr "Accepted"
+
+msgid "plugins.generic.nastis.action.apiStatus"
+msgstr "API status"
+
+msgid "plugins.generic.nastis.filter.syncStatus"
+msgstr "Nastis status"
+
+msgid "plugins.generic.nastis.search.noResults"
+msgstr "No matching submissions found."
+
+msgid "plugins.generic.nastis.search.showingResults"
+msgstr "Showing {$shown} of {$total} matching submissions."
+
+msgid "plugins.generic.nastis.settings.connection"
+msgstr "Connection"
+
+msgid "plugins.generic.nastis.test.button"
+msgstr "Test connection"
+
+msgid "plugins.generic.nastis.test.running"
+msgstr "Testing the connection…"
+
+msgid "plugins.generic.nastis.test.success"
+msgstr "Connection successful: the server accepted these credentials."
+
+msgid "plugins.generic.nastis.test.authInvalid"
+msgstr "The server rejected the client ID or API key. Check the credentials issued for your journal."
+
+msgid "plugins.generic.nastis.test.journalMismatch"
+msgstr "The credentials are valid but are not authorised for this journal code."
+
+msgid "plugins.generic.nastis.test.unreachable"
+msgstr "The server could not be reached. Check the base URL and the network connection."
+
+msgid "plugins.generic.nastis.error.fileUnreadable"
+msgstr "The article file could not be read: {$path}"
+
+msgid "plugins.generic.nastis.error.fileTooLarge"
+msgstr "The article file exceeds the 50 MB limit accepted by the ingest API."
+
+msgid "plugins.generic.nastis.error.transport"
+msgstr "Could not reach the ingest API: {$message}"
+
+msgid "plugins.generic.nastis.error.unexpectedHttp"
+msgstr "The ingest API returned an unexpected HTTP {$status} response."

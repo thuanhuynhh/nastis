@@ -1,0 +1,179 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: vi\n"
+
+msgid "plugins.generic.nastis.name"
+msgstr "Nastis"
+
+msgid "plugins.generic.nastis.description"
+msgstr "Plugin giúp tự động đăng tải dữ liệu, đồng bộ metadata bài báo đã xuất bản và file PDF từ OJS lên Hệ thống Tạp chí khoa học Việt Nam trực tuyến (VJOL) thông qua API ingest."
+
+msgid "plugins.generic.nastis.settings.baseUrl"
+msgstr "Base URL"
+
+msgid "plugins.generic.nastis.settings.journalCode"
+msgstr "Mã tạp chí"
+
+msgid "plugins.generic.nastis.settings.clientId"
+msgstr "Client ID"
+
+msgid "plugins.generic.nastis.settings.apiKey"
+msgstr "API key"
+
+msgid "plugins.generic.nastis.settings.behavior"
+msgstr "Hành vi đồng bộ"
+
+msgid "plugins.generic.nastis.settings.autoSyncOnPublish"
+msgstr "Tự động đồng bộ khi bài được xuất bản."
+
+msgid "plugins.generic.nastis.settings.autoSyncOnEdit"
+msgstr "Tự động đồng bộ khi chỉnh sửa bài đã đồng bộ."
+
+msgid "plugins.generic.nastis.settings.uploadPdf"
+msgstr "Upload file PDF galley đầu tiên sau khi đồng bộ metadata."
+
+msgid "plugins.generic.nastis.settings.help"
+msgstr "Sử dụng bộ credential ingest được cấp cho tạp chí. Base URL tích hợp có thể khác website công khai VJOL."
+
+msgid "plugins.generic.nastis.settings.pluginInfo"
+msgstr "Thông tin plugin"
+
+msgid "plugins.generic.nastis.settings.author"
+msgstr "Tác giả"
+
+msgid "plugins.generic.nastis.settings.authorName"
+msgstr "Thuận Huỳnh"
+
+msgid "plugins.generic.nastis.settings.authorAffiliation"
+msgstr "Tạp chí Sức khỏe và Lão hóa - Bệnh viện Thống Nhất"
+
+msgid "plugins.generic.nastis.settings.journalWebsite"
+msgstr "Trang chủ tạp chí"
+
+msgid "plugins.generic.nastis.settings.fieldRequired"
+msgstr "Trường này là bắt buộc."
+
+msgid "plugins.generic.nastis.settings.baseUrl.invalid"
+msgstr "Base URL không hợp lệ."
+
+msgid "plugins.generic.nastis.sync.success"
+msgstr "Đồng bộ Nastis thành công."
+
+msgid "plugins.generic.nastis.sync.error"
+msgstr "Đồng bộ Nastis thất bại."
+
+msgid "plugins.generic.nastis.error.notConfigured"
+msgstr "Plugin Nastis chưa được cấu hình. Hãy nhập cấu hình trước."
+
+msgid "plugins.generic.nastis.error.noPublication"
+msgstr "Submission chưa có publication hiện tại để đồng bộ."
+
+msgid "plugins.generic.nastis.navigation.nastis"
+msgstr "Nastis"
+
+msgid "plugins.generic.nastis.tab.overview"
+msgstr "Tổng quan"
+
+msgid "plugins.generic.nastis.tab.about"
+msgstr "Giới thiệu"
+
+msgid "plugins.generic.nastis.tab.submissions"
+msgstr "Bài viết"
+
+msgid "plugins.generic.nastis.tab.syncBehavior"
+msgstr "Cơ chế đồng bộ"
+
+msgid "plugins.generic.nastis.tab.lastSyncedAt"
+msgstr "Lần đồng bộ cuối"
+
+msgid "plugins.generic.nastis.action.syncSelected"
+msgstr "Đồng bộ các bài đã chọn"
+
+msgid "plugins.generic.nastis.status.notSynced"
+msgstr "Chưa đồng bộ"
+
+msgid "plugins.generic.nastis.action.syncNow"
+msgstr "Đồng bộ ngay"
+
+msgid "plugins.generic.nastis.action.openPanel"
+msgstr "Mở Nastis"
+
+msgid "plugins.generic.nastis.action.applyFilters"
+msgstr "Áp dụng bộ lọc"
+
+msgid "plugins.generic.nastis.action.bulkActions"
+msgstr "Hành động hàng loạt:"
+
+msgid "plugins.generic.nastis.action.selectAll"
+msgstr "Chọn tất cả"
+
+msgid "plugins.generic.nastis.action.selectNone"
+msgstr "Bỏ chọn tất cả"
+
+msgid "plugins.generic.nastis.action.expandDetails"
+msgstr "Hiển thị thêm chi tiết"
+
+msgid "plugins.generic.nastis.pagination.prev"
+msgstr "Trước"
+
+msgid "plugins.generic.nastis.pagination.page"
+msgstr "Trang"
+
+msgid "plugins.generic.nastis.pagination.next"
+msgstr "Sau"
+
+msgid "plugins.generic.nastis.status.received"
+msgstr "Đã tiếp nhận"
+
+msgid "plugins.generic.nastis.status.needsCorrection"
+msgstr "Cần chỉnh sửa"
+
+msgid "plugins.generic.nastis.status.accepted"
+msgstr "Được chấp nhận"
+
+msgid "plugins.generic.nastis.action.apiStatus"
+msgstr "API status"
+
+msgid "plugins.generic.nastis.filter.syncStatus"
+msgstr "Trạng thái Nastis"
+
+msgid "plugins.generic.nastis.search.noResults"
+msgstr "Không tìm thấy bài phù hợp."
+
+msgid "plugins.generic.nastis.search.showingResults"
+msgstr "Hiển thị {$shown} / {$total} bài phù hợp."
+
+msgid "plugins.generic.nastis.settings.connection"
+msgstr "Kết nối"
+
+msgid "plugins.generic.nastis.test.button"
+msgstr "Kiểm tra kết nối"
+
+msgid "plugins.generic.nastis.test.running"
+msgstr "Đang kiểm tra kết nối…"
+
+msgid "plugins.generic.nastis.test.success"
+msgstr "Kết nối thành công: máy chủ đã chấp nhận thông tin xác thực này."
+
+msgid "plugins.generic.nastis.test.authInvalid"
+msgstr "Máy chủ từ chối Client ID hoặc API Key. Vui lòng kiểm tra lại thông tin xác thực do Bộ cấp cho tạp chí."
+
+msgid "plugins.generic.nastis.test.journalMismatch"
+msgstr "Thông tin xác thực hợp lệ nhưng không được cấp quyền cho mã tạp chí này."
+
+msgid "plugins.generic.nastis.test.unreachable"
+msgstr "Không kết nối được tới máy chủ. Vui lòng kiểm tra Base URL và đường truyền mạng."
+
+msgid "plugins.generic.nastis.error.fileUnreadable"
+msgstr "Không đọc được tệp bài báo: {$path}"
+
+msgid "plugins.generic.nastis.error.fileTooLarge"
+msgstr "Tệp bài báo vượt quá giới hạn 50 MB mà API tiếp nhận cho phép."
+
+msgid "plugins.generic.nastis.error.transport"
+msgstr "Không kết nối được tới API tiếp nhận: {$message}"
+
+msgid "plugins.generic.nastis.error.unexpectedHttp"
+msgstr "API tiếp nhận trả về phản hồi HTTP {$status} không mong đợi."

@@ -1,0 +1,503 @@
+.nastisWorkflowSection {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.nastisWorkflowSection__row {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.nastisWorkflowSection__label {
+    font-weight: 700;
+}
+
+.nastisWorkflowSection__meta {
+    color: #475467;
+    font-size: 0.9rem;
+}
+
+.nastisWorkflowSection__error {
+    color: #b42318;
+    font-size: 0.9rem;
+}
+
+.nastisWorkflowSection__actions {
+    display: flex;
+    gap: 8px;
+    flex-wrap: wrap;
+}
+
+.nastisBadge {
+    display: inline-flex;
+    align-items: center;
+    border-radius: 999px;
+    padding: 2px 10px;
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.nastisBadge--success {
+    background: #dcfae6;
+    color: #067647;
+}
+
+.nastisBadge--warning {
+    background: #fef0c7;
+    color: #b54708;
+}
+
+.nastisBadge--error {
+    background: #fee4e2;
+    color: #b42318;
+}
+
+.nastisBadge--neutral {
+    background: #eaecf0;
+    color: #344054;
+}
+
+.nastisPage {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.nastisPage .pkp_form legend,
+.nastisPage .pkp_form label,
+.nastisPage .pkp_form .section > .label,
+.nastisPage .pkp_uploadedFile_summary .filename {
+    font-size: 0.8125rem;
+    font-weight: 400;
+}
+
+.nastisOverview {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.nastisOverview__grid {
+    display: grid;
+    gap: 16px;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+}
+
+.nastisOverview__card {
+    border: 1px solid #d0d5dd;
+    border-radius: 8px;
+    background: #fff;
+    padding: 16px 18px;
+}
+
+.nastisOverview__label {
+    color: #667085;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+}
+
+.nastisOverview__value {
+    margin-top: 8px;
+    color: #101828;
+    font-size: 18px;
+    font-weight: 700;
+    word-break: break-word;
+}
+
+.nastisOverview__subvalue {
+    margin-top: 6px;
+    color: #667085;
+    font-size: 13px;
+    line-height: 1.5;
+    word-break: break-word;
+}
+
+.nastisOverview__author {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 16px;
+    margin-top: 8px;
+}
+
+.nastisOverview__authorText {
+    min-width: 0;
+    flex: 1 1 auto;
+}
+
+.nastisOverview__authorText .nastisOverview__value {
+    margin-top: 0;
+}
+
+.nastisOverview__link {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    color: #175cd3;
+    font-size: 13px;
+    font-weight: 600;
+    text-decoration: none;
+    white-space: nowrap;
+}
+
+.nastisOverview__link:hover {
+    text-decoration: underline;
+}
+
+.nastisOverview__linkIcon {
+    width: 16px;
+    height: 16px;
+    fill: currentColor;
+    flex: 0 0 auto;
+}
+
+.nastisOverview__list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-top: 10px;
+}
+
+.nastisChip {
+    display: inline-flex;
+    align-items: center;
+    border-radius: 999px;
+    padding: 6px 10px;
+    background: #f2f4f7;
+    color: #344054;
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.nastisToolbar {
+    padding: 18px;
+}
+
+.nastisLayout {
+    display: grid;
+    grid-template-columns: 220px minmax(0, 1fr);
+    gap: 16px;
+    align-items: start;
+}
+
+.nastisSidebar {
+    padding: 14px;
+    position: sticky;
+    top: 16px;
+}
+
+.nastisSidebar__title {
+    color: #101828;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.nastisMain {
+    min-width: 0;
+}
+
+.nastisMain .pkp_grid_wrapper {
+    overflow-x: auto;
+}
+
+.nastisFilters {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.nastisFilters__search input {
+    width: 100%;
+    max-width: 480px;
+}
+
+.nastisFilters__group {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px 16px;
+    align-items: center;
+}
+
+.nastisFilters__group--stack {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+.nastisFilters__actions {
+    display: flex;
+    gap: 8px;
+    flex-wrap: wrap;
+}
+
+.nastisFilters__actions--stack {
+    flex-direction: column;
+    align-items: stretch;
+}
+
+.nastisFilters__label {
+    display: block;
+    margin-bottom: 4px;
+    color: #344054;
+    font-size: 10px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+}
+
+.nastisCheckbox {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    color: #344054;
+    font-size: 11px;
+    line-height: 1.35;
+}
+
+.nastisButton {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 36px;
+    padding: 0 14px;
+    border-radius: 6px;
+    border: 1px solid #d0d5dd;
+    background: #fff;
+    color: #344054;
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 1;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background-color 0.15s ease, border-color 0.15s ease, color 0.15s ease;
+}
+
+.nastisButton:hover {
+    background: #f9fafb;
+    text-decoration: none;
+}
+
+.nastisButton--primary {
+    background: #175cd3;
+    border-color: #175cd3;
+    color: #fff;
+}
+
+.nastisButton--primary:hover {
+    background: #1849a9;
+    border-color: #1849a9;
+    color: #fff;
+}
+
+.nastisButton--secondary {
+    background: #fff;
+    border-color: #d0d5dd;
+    color: #344054;
+}
+
+.nastisTableHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 14px;
+    padding: 0 18px;
+}
+
+.nastisTableHeader__title {
+    color: #101828;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.nastisTableHeader__meta {
+    color: #667085;
+    font-size: 13px;
+    font-weight: 500;
+    margin-left: 8px;
+}
+
+.nastisTableHeader__actions {
+    display: flex;
+    gap: 8px;
+    flex-wrap: wrap;
+}
+
+.nastisTable__titleCell {
+    min-width: 0;
+    width: auto;
+}
+
+.nastisTable {
+    width: 100%;
+    min-width: 0;
+    table-layout: auto;
+}
+
+.nastisTable__checkboxHeader {
+    width: 40px;
+}
+
+.nastisTable__title {
+    color: #175cd3;
+    font-weight: 700;
+    text-decoration: none;
+    word-break: break-word;
+}
+
+.nastisTable__title:hover {
+    text-decoration: underline;
+}
+
+.nastisTable__metaLine {
+    margin-top: 4px;
+    color: #667085;
+    font-size: 12px;
+    line-height: 1.4;
+    display: block;
+    word-break: break-word;
+}
+
+.nastisTable__metaSeparator {
+    color: #98a2b3;
+    margin: 0 4px;
+}
+
+.nastisTable__metaIssue {
+    color: #475467;
+}
+
+.nastisTable__mono {
+    font-family: ui-monospace, SFMono-Regular, SFMono-Regular, Consolas, "Liberation Mono", Menlo, monospace;
+    font-size: 12px;
+    word-break: break-all;
+}
+
+.nastisTable__error {
+    color: #b42318;
+    word-break: break-word;
+}
+
+.nastisTable__detailsCell {
+    width: 1%;
+    white-space: nowrap;
+    vertical-align: top;
+    text-align: right;
+}
+
+.nastisTable__statusCell {
+    width: 1%;
+    white-space: nowrap;
+    text-align: right;
+}
+
+.nastisTable__statusHeader,
+.nastisTable__detailsHeader {
+    width: 1%;
+    white-space: nowrap;
+    text-align: right;
+}
+
+.nastisTable__detailsToggle {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    padding: 4px 0;
+    border: 0;
+    background: transparent;
+    color: #175cd3;
+    font-size: 12px;
+    font-weight: 600;
+    cursor: pointer;
+    margin-left: auto;
+}
+
+.nastisTable__detailsToggle::after {
+    content: "▾";
+    font-size: 10px;
+    color: currentColor;
+}
+
+.nastisTable__detailsToggle[aria-expanded="true"]::after {
+    content: "▴";
+}
+
+.nastisTable__expandedRow[hidden] {
+    display: none;
+}
+
+.nastisTable__expandedCell {
+    padding: 0 !important;
+    border-top: 0 !important;
+    border-bottom: 1px solid var(--bg-border-light, #d0d5dd) !important;
+    border-left: 1px solid var(--bg-border-light, #d0d5dd) !important;
+    border-right: 1px solid var(--bg-border-light, #d0d5dd) !important;
+    background: #fff;
+}
+
+.nastisTable__detailsBody {
+    margin: 0 20px 0px 100px;
+    padding: 14px 16px;
+}
+
+.nastisTable__detailRow + .nastisTable__detailRow {
+    margin-top: 5px;
+    padding-top: 5px;
+    border-top: 1px solid #eaecf0;
+}
+
+.nastisTable__detailLabel {
+    display: block;
+    margin-bottom: 4px;
+    color: #667085;
+    font-size: 10px;
+    font-weight: 700;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+}
+
+.nastisTable__detailValue {
+    display: block;
+    color: #101828;
+    font-size: 12px;
+    line-height: 1.45;
+    word-break: break-word;
+}
+
+.nastisTable td {
+    overflow: visible;
+}
+
+.nastisTable th:nth-child(3),
+.nastisTable td:nth-child(3) {
+    width: auto;
+}
+
+.nastisTable__empty {
+    text-align: center;
+    color: #667085;
+    padding: 24px 12px;
+}
+
+@media (max-width: 768px) {
+    .nastisLayout {
+        grid-template-columns: 1fr;
+    }
+
+    .nastisSidebar {
+        position: static;
+    }
+
+    .nastisTableHeader {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .nastisTableHeader__actions {
+        width: 100%;
+    }
+}

@@ -1,0 +1,16 @@
+[
+  "common.cancel",
+  "common.error",
+  "common.selectAll",
+  "common.selectNone",
+  "common.status",
+  "common.view",
+  "plugins.generic.nastis.action.openPanel",
+  "plugins.generic.nastis.action.syncNow",
+  "plugins.generic.nastis.action.syncSelected",
+  "plugins.generic.nastis.navigation.nastis",
+  "plugins.generic.nastis.status.notSynced",
+  "plugins.generic.nastis.sync.error",
+  "plugins.generic.nastis.sync.success",
+  "plugins.generic.nastis.tab.lastSyncedAt"
+]
