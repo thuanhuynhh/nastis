@@ -1,5 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE version SYSTEM "../../../lib/pkp/dtd/pluginVersion.dtd">
+
+<!--
+  * plugins/generic/nastis/version.xml
+  *
+  * Copyright (c) 2026 Thuan Huynh
+  * Distributed under the GNU GPL v3.
+  *
+  * Plugin version information.
+-->
+
 <version>
 	<application>nastis</application>
 	<type>plugins.generic</type>
